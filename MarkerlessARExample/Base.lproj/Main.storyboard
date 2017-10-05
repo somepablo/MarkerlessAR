@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MarkerlessARExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rRl-lA-Kho">
+                                <rect key="frame" x="0.0" y="-62.5" width="667" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rRl-lA-Kho" secondAttribute="height" multiplier="4:3" id="cu5-ch-K8Q"/>
+                                </constraints>
+                            </imageView>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" playing="YES" autoenablesDefaultLighting="YES" preferredRenderingAPI="2" translatesAutoresizingMaskIntoConstraints="NO" id="ams-Dp-Tk7">
+                                <rect key="frame" x="0.0" y="-62.5" width="667" height="500"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ams-Dp-Tk7" firstAttribute="top" secondItem="rRl-lA-Kho" secondAttribute="top" id="2lB-Oh-3tG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rRl-lA-Kho" secondAttribute="trailing" id="7dq-4f-X2g"/>
+                            <constraint firstItem="rRl-lA-Kho" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8NB-P6-jlI"/>
+                            <constraint firstItem="ams-Dp-Tk7" firstAttribute="bottom" secondItem="rRl-lA-Kho" secondAttribute="bottom" id="KAJ-pV-lho"/>
+                            <constraint firstItem="rRl-lA-Kho" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="VFu-5I-ls4"/>
+                            <constraint firstItem="ams-Dp-Tk7" firstAttribute="trailing" secondItem="rRl-lA-Kho" secondAttribute="trailing" id="cU8-Sx-QE4"/>
+                            <constraint firstItem="ams-Dp-Tk7" firstAttribute="leading" secondItem="rRl-lA-Kho" secondAttribute="leading" id="m5D-AJ-I6G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="rRl-lA-Kho" id="2pr-ZC-WLz"/>
+                        <outlet property="sceneView" destination="ams-Dp-Tk7" id="1pw-IE-2Zy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

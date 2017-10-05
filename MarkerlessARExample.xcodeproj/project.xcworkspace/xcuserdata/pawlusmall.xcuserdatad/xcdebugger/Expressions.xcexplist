@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MarkerDetector::MarkerDetector::processFrame(cv::Mat&amp;):MarkerDetector.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
