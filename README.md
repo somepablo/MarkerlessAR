@@ -6,7 +6,7 @@ The purpose of the project to serve as a mockup for those who want to learn how 
 
 It only uses OpenCV as a dependency, that is not included in the project because of its size. You can download it here:
 
-[OpenCV Framework](https://pages.github.com/).
+[OpenCV Framework](http://pullrequest.opencv.org/buildbot/export/opencv_releases/master_iOS-mac/20171008-211814--10245/opencv2.framework.zip)
 
 You can use the default logo, or replace it with your own:
 
