@@ -10,6 +10,6 @@ It only uses OpenCV as a dependency, that is not included in the project because
 
 You can use the default logo, or replace it with your own:
 
-![Default Logo](https://raw.githubusercontent.com/pawlusmall/MarkerlessAR/MarkerlessARExample/Assets.xcassets/onirix-markerless.imageset/onirix-markerless.png)
+![Default Logo](https://github.com/pawlusmall/MarkerlessAR/raw/master/MarkerlessARExample/Assets.xcassets/onirix-markerless.imageset/onirix-markerless.png)
 
 
